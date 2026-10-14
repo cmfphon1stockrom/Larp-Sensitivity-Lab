@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#10131A" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="LARP SENSITIVITY LAB" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="DEVICE SCAN • AIM PROFILE"
+            android:textColor="#72E6B1" android:textSize="12sp" android:letterSpacing="0.08" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="Hardware-aware starting settings. No root required."
+            android:textColor="#AEB8CC" android:textSize="14sp" />
+        <TextView android:id="@+id/deviceInfo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:background="#1C2330" android:padding="16dp" android:textColor="#FFFFFF"
+            android:textSize="14sp" android:lineSpacingExtra="5dp" android:text="Scanning device..." />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="22dp" android:text="GENERATED SENSITIVITY"
+            android:textColor="#72E6B1" android:textStyle="bold" android:textSize="16sp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="Illustrative 0–200 scale • tune in training mode"
+            android:textColor="#AEB8CC" android:textSize="12sp" />
+        <TextView android:id="@+id/settingsInfo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:background="#1C2330" android:padding="16dp" android:textColor="#FFFFFF"
+            android:textSize="16sp" android:lineSpacingExtra="7dp" android:text="Calculating..." />
+        <Button android:id="@+id/copyButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Copy settings" />
+        <Button android:id="@+id/rescanButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Rescan device" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="GG Mouse Pro and game settings must be entered manually unless a supported import API is available. Android display DPI is not mouse DPI."
+            android:textColor="#AEB8CC" android:textSize="12sp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:text="Made by @odil9 on Discord"
+            android:textColor="#72E6B1" android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>
